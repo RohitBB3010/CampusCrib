@@ -1,0 +1,170 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c9e4ca;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url(Fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Monsterrat";
+    src: url(Fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(Fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Party";
+    src: url(Fonts/PartyConfettiRegular-eZOn3.ttf);
+}
+
+                                   /* Title of Login Page */
+
+.name{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding : 0px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Playfair";
+} 
+
+#logo{
+    grid-column: 1/2;
+    justify-self: end;
+}
+
+#title{
+    grid-column: 2/3;
+    justify-self : start;
+    padding : 2px;
+}
+
+.tab{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width : 90%;
+    margin : 20px 600px 20px 0px;
+    height : 400px;
+}
+
+img{
+    padding : 5px;
+}
+#img-holder{
+    grid-column : 1/2;
+    justify-self: end;
+    background-color: #357266;
+}
+
+#login{
+    grid-column : 2/3;
+    font-family: "Lato";
+    background-color: #C5C392;
+    color : #ffffff;
+}
+
+.sign{
+    font-size : 30px;
+    padding : 5px;
+    margin : 0;
+    width : 305px;
+    border : 0;
+}
+
+#signin{
+    background-color: #C5C392;
+    color : #ffffff;
+}
+
+#signup{
+    background-color: #357266;
+    color : #ffffff;
+}
+
+#welcome{
+    font-family: "Playfair";
+    font-size : 40px;
+    text-align: center;
+    padding : 10px 20px 0px 20px;
+}
+
+#form{
+    display: grid;
+    grid-template-rows: repeat(5, 20%);
+}
+
+.form2, .form3{
+    display: none;
+}
+
+.inpa, #button1{
+    width : 300px;
+    display: block;
+    padding : 5px;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin : 30px 140px;
+    border : 0.2px solid;
+    border-radius: 30px;
+    background-color: #C5C392;
+}
+
+#nameb, #emailb, #button2{
+    display: block;
+    padding : 3px;
+    margin : 10px 140px;
+    font-size : 15px;
+    border : 0.2px solid;
+    border-radius: 30px;
+    background-color: #C5C392;
+    width : 300px;
+}
+
+#phoneb, #passb, #ageb, #locationb{
+    display: inline;
+    padding : 3px;
+    margin : 10px 140px;
+    font-size : 15px;
+    border : 0.2px solid;
+    border-radius: 30px;
+    background-color: #C5C392;
+    width : 300px;
+}
+
+#ageb{
+    margin-right : 160px;
+}
+
+#gender{
+    margin : 0px 160px;
+}
+
+#button1, #button2{
+    margin-left : 145px;
+    box-shadow: none;
+    background-color: #357266;
+    border-radius : 8px;
+    color : #ffffff;
+    border : 1px solid #C5C392;
+}
+
+.form3{
+    padding : 20px;
+    font-family: "Playfair";
+}

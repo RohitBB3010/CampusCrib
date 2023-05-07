@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CampusCribs </title>
+        <link rel = "stylesheet" href = "tenant.css" >
+    </head>
+
+<body>
+    <div class = "navbar">
+        <button id = "home" onclick = "document.location.href='tenant.html'"> Home </button>
+        <button id = "connect" onclick="document.location.href = 'contact.html'"> CribConnect </button>
+        <div id = "title"><img src = "Resources/logocc.png" width = "32px" height = "32px"> CampusCribs </div>
+        <div id = "contact"> Contact Us </div>
+        <div id = "unknown"> About CC </div>
+    </div>
+
+    <div class= "info">
+        <div id = "tagline">
+            <div id = "tag1"> Find Your Tribe </div>
+            <div id = "tag2"> Find Your Home </div>
+            <div id = "tag3"> We Bring Students Together</div>
+        </div>
+        <div id = "features">
+            <a id = "land"> Welcome to CampusCrib </a>
+
+            <div id = "featurel">
+                <img id = "img1" src = "Resources/network.png" width = "128px" height = "128px" >
+                <a id = "feat1"> The ultimate resource for students seeking off-campus housing. Our platform 
+                    connects students from all over, helping them find their perfect living situation based on
+                    their unique preferences. </a>
+                <img id = "img2" src = "Resources/house.png" width = "128px" height = "128px">
+                <a id = "feat2"> With CampusCrib, you'll find the perfect off-campus housing situation to fit your
+                    unique needs and make the most of your campus experience. Start your search today and 
+                    discover your new home away from home.</a>
+                <img id = "img3" src = "Resources/handshake.png" width = "128px" height = "128px" >
+                <a id = "feat3"> CampusCrib makes finding the ideal roommates and home stress-free. 
+                    Say goodbye to impersonal dorm living and hello to a vibrant campus community. </a>
+            </div>
+        </div>
+    </div>
+
+    <div id = "criteria">
+        <input id = "location" type = "text" placeholder = "Enter city, region, area">
+
+        <div id = "cl1" class = "custom-select">
+            <select>
+                <option value="0">Select House Type</option>
+                <option value="1">1 RK</option>
+                <option value="2">1 BHK</option>
+                <option value="3">2 BHK</option>
+                <option value="4">3 BHK</option>
+                <option value="4">4 BHK</option>
+                <option value="6"> PG </option>
+            </select>
+        </div>
+
+        <div id = "cl2"  class = "custom-select">
+            <select> 
+                <option value="0">Select Number Max. of Tenants </option>
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+                <option value="5"> 5 </option>
+            </select>
+        </div>
+
+        <div id = "cl3"  class = "custom-select">
+            <select> 
+                <option value="0"> Furnish-Type </option>
+                <option value="1"> Fully-Furnished</option>
+                <option value="2"> Semi-Furnished</option>
+                <option value="3"> Un-Furnished </option>
+            </select>
+        </div>
+
+        <div id = "cl4"  class = "custom-select">
+            <select> 
+                <option value="0"> Monthly Rent </option>
+                <option value="1"> 2000/- to 5000/- </option>
+                <option value="2"> 5001/- to 8000/- </option>
+                <option value="3"> 8001/- to 12000/- </option>
+                <option value="3"> 12001/- to 15000/- </option>
+                <option value="3"> 15001/- to 20000/- </option>
+                <option value="3"> 15001/- & Above </option>
+            </select>
+        </div>
+
+        <button id = "button4"> Clear Filters </button>
+    </div>
+
+    <div class = "houses">
+        <div id = "house1">
+            <div id = "grid1">
+                <img class = "pic" src = "Resources/house4.webp" width="200px" height = "200px">
+                <div id = "info1">
+                    <a class = "prize">
+                        <div> Monthly Rent</div>
+                        <div> ₹30,000 </div>
+                    </a>
+                    <a class = "place">
+                        <div> 2 BHK House in Andheri West</div>
+                    </a>
+                    <a class = "furnish"><img src = "Resources/furnitures.png"> Fully-Furnished </a>
+                    <a class = "c-area"><img src = "Resources/area.png"> 1000 sq.ft.</a>
+                    <a class = "bathrooms">
+                        <div> Bathrooms <img src = "Resources/bathtub.png"></div>
+                        <div class = "bnum"> 2 </div>
+                    </a>
+                    <a class = "amentities">
+                        <div> Lorem, ipsum dolor.</div>
+                        <div> Lorem, ipsum dolor.</div>
+                        <div> Lorem, ipsum.</div>
+                    </a>
+                    <a class = "mseller"><img src = "Resources/chat.png"> Message Seller </a>
+                    <a class = "seller"><img src = "Resources/telephone.png" width = "16px" height = "16px"> Call Seller </a>
+                </div>
+            </div>
+        </div>
+
+        <div id = "house2">
+            <div id = "grid2">
+                <img class = "pic"  src = "Resources/house5.webp" width="200px" height = "200px">
+                <div id = "info2">
+                    <a class = "prize">
+                        <div> Monthly Rent</div>
+                        <div> ₹11,000 </div>
+                    </a>
+                    <a class = "place">
+                        <div> 1 BHK House in Malad West, Pallava Township </div>
+                    </a>
+                    <a class = "furnish"><img src = "Resources/furnitures.png"> Fully-Furnished </a>
+                    <a class = "c-area"><img src = "Resources/area.png"> 550 sq.ft.</a>
+                    <a class = "bathrooms">
+                        <div> Bathrooms <img src = "Resources/bathtub.png"></div>
+                        <div class = "bnum"> 1 </div>
+                    </a>
+                    <a class = "amentities">
+                        <div> Lorem, ipsum dolor.</div>
+                        <div> Lorem, ipsum dolor.</div>
+                        <div> Lorem, ipsum.</div>
+                    </a>
+                    <a class = "mseller"><img src = "Resources/chat.png">  Message Seller </a>
+                    <a class = "seller"><img src = "Resources/telephone.png" width = "16px" height = "16px"> Call Seller </a>
+                </div>
+            </div>
+        </div>
+
+        <div id = "house3">
+            <div id = "grid3">
+                <img class = "pic"  src = "Resources/house1.webp" width="200px" height = "200px">
+                <div id = "info3">
+                    <a class = "prize">
+                        <div> Monthly Rent</div>
+                        <div> ₹20,000 </div>
+                    </a>
+                    <a class = "place">
+                        <div> 2 BHK in Chembur near BARC Colony </div>
+                    </a>
+                    <a class = "furnish"><img src = "Resources/furnitures.png"> Semi-Furnished </a>
+                    <a class = "c-area"><img src = "Resources/area.png"> 850 sq.ft </a>
+                    <a class = "bathrooms">
+                        <div> Bathrooms <img src = "Resources/bathtub.png"></div>
+                        <div class = "bnum"> 2 </div>
+                    </a>
+                    <a class = "amentities">
+                        <div> Lorem, ipsum dolor.</div>
+                        <div> Lorem, ipsum dolor.</div>
+                        <div> Lorem, ipsum.</div>
+                    </a>
+                    <a class = "mseller"><img src = "Resources/chat.png">  Message Seller</a>
+                    <a class = "seller"><img src = "Resources/telephone.png" width = "16px" height = "16px"> Call Seller </a>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
